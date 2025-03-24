@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEO Data Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+      body {
+        font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        padding: 40px 20px;
+        text-align: center;
+        color: #333;
+      }
+
+      h1 {
+        font-size: 2.2em;
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: #1a202c;
+      }
+
+      label {
+        font-weight: 500;
+        margin-right: 10px;
+        font-size: 16px;
+      }
+
+      #chart-select {
+        padding: 10px 14px;
+        font-size: 16px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      #chart-select:focus {
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+        outline: none;
+      }
+
+      .chart {
+        display: none;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        margin: 30px auto 0;
+        padding: 10px;
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+      }
+
+      .chart.active {
+        display: block;
+        opacity: 1;
+      }
+
+      #default-message {
+        margin-top: 40px;
+        font-size: 18px;
+        color: #666;
+      }
+
+      #non-hazardous-pie-btn {
+        margin-top: 20px;
+        padding: 8px 16px;
+        background-color: #3b82f6;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      #non-hazardous-pie {
+        margin-top: 20px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NEO Data Visualization</h1>
+
+    <label for="chart-select">Choose a chart:</label>
+    <select id="chart-select">
+      <option value="">-- Select a Chart --</option>
+      <option value="pie">Pie Chart</option>
+      <option value="miss-distance">Miss Distance vs Hazard (Scatter)</option>
+      <option value="miss-distance-box">
+        Miss Distance Distribution (Boxplot)
+      </option>
+      <option value="correlation">Diameter vs Hazard (Scatter)</option>
+      <option value="boxplot">Diameter Distribution (Boxplot)</option>
+      <option value="velocity">Velocity vs Hazard (Scatter)</option>
+      <option value="velocity-box">Velocity Distribution (Boxplot)</option>
+      <option value="bubble">Hazard Risk (Bubble Chart)</option>
+    </select>
+
+    <div id="default-message">
+      Please select a chart to explore asteroid data.
+    </div>
+
+    <div id="pie-chart" class="chart"></div>
+    <div id="miss-distance-graph" class="chart"></div>
+    <div id="miss-distance-boxplot" class="chart"></div>
+
+    <div id="correlation-graph" class="chart">
+      <button id="non-hazardous-pie-btn">
+        Show Size Breakdown of Non-Hazardous Asteroids
+      </button>
+      <div id="non-hazardous-pie"></div>
+    </div>
+
+    <div id="boxplot-chart" class="chart"></div>
+    <div id="velocity-graph" class="chart"></div>
+    <div id="velocity-boxplot" class="chart"></div>
+    <div id="bubble-chart" class="chart"></div>
+
+    <script src="neo_data.js"></script>
+    <script src="dotan.js"></script>
+  </body>
+</html>

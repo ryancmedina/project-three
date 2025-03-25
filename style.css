@@ -15,34 +15,26 @@ html, body {
 
 
 
-/* Main container for Graph & Description */
+/* Main container for Graph */
 .container {
     display: flex;          /* Side-by-side layout */
-    justify-content: space-between; /* Pushes items apart */
-    align-items: flex-start;    /* Aligns items vertically */
-    gap: 15px;              /* Adds spacing between graph and paragraph */
-    width: 100%;
-    flex-wrap: nowrap;
+    justify-content: center; /* Pushes items apart */
+    align-items: center;    /* Aligns items vertically */
 }
 
 /* Adjust Graph Section */
 #graph {
-    width: 70%;  /* Takes 70% of the space */
-    min-width: 400px;
-}
-
-/* Adjust Description Section */
-#description {
-    width: 20%;  /* Takes 30% of the space */
-    text-align: left; /* Align text properly */
-    font-size: 16px;
-    color: whitesmoke;
+    width: 90%;  /* Takes 90% of the space */
+    max-width: 800px;
+    margin: 0 auto;    /* Centers the element horizontally */
+    display: block; 
 }
 
 /* Scatterplot Container */
 #scatterplot-container {
     text-align: center;
-    margin: 20px 0;
+    margin: 30px 0;
+    position: relative;
 }
 
   button {
@@ -53,16 +45,28 @@ html, body {
     
 }
 
-
   h1 {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     text-align: center;
     margin: 20px;
-    color: blue;
+    color: greenyellow;
 
 }
 
 
   h2 {
-    color: blue;
+    color: whitesmoke;
+    font-family: serif;
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+
   }
+
+  h3 {
+    font-family: 'Times New Roman';
+    text-align: left; /* Aligns the text to the right */
+    margin: 0.5px;
+    color: wheat;
+    
+}

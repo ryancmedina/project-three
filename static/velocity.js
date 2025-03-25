@@ -58,8 +58,7 @@ let currentStart = new Date(startDate);
         await new Promise(resolve => setTimeout(resolve, 500)); // Delay to avoid API rate limit
     }
 
-//insert data into MongoDB
-    //await insertToMongoDB(allAsteroids) ;   
+    
     return allAsteroids;
 }
 
@@ -95,6 +94,5 @@ async function drawScatterPlot() {
 
     Plotly.newPlot("scatterplot", [trace], layout);
 }
-//     populateDropdown(asteroids);
-// }
+
 

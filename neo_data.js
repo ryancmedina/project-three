@@ -62,13 +62,13 @@ const neoData = [
   {
     "id": "54520917",
     "name": "(2025 DD8)",
-    "absolute_magnitude_h": 21.609,
-    "estimated_diameter_km_min": 0.1266936875,
-    "estimated_diameter_km_max": 0.2832956975,
+    "absolute_magnitude_h": 21.678,
+    "estimated_diameter_km_min": 0.1227311989,
+    "estimated_diameter_km_max": 0.2744353037,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-20",
-    "relative_velocity_kph": "69082.4313976871",
-    "miss_distance_km": "26494792.368145269",
+    "relative_velocity_kph": "69060.3212928931",
+    "miss_distance_km": "26475827.098176019",
     "orbiting_body": "Earth"
   },
   {
@@ -86,13 +86,61 @@ const neoData = [
   {
     "id": "54523820",
     "name": "(2025 FA)",
-    "absolute_magnitude_h": 22.529,
-    "estimated_diameter_km_min": 0.0829382708,
-    "estimated_diameter_km_max": 0.1854556115,
+    "absolute_magnitude_h": 22.56,
+    "estimated_diameter_km_min": 0.0817626533,
+    "estimated_diameter_km_max": 0.1828268509,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-20",
-    "relative_velocity_kph": "52071.3056529904",
-    "miss_distance_km": "8134212.248418009",
+    "relative_velocity_kph": "51999.0351222985",
+    "miss_distance_km": "8122934.453953171",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523976",
+    "name": "(2025 FF)",
+    "absolute_magnitude_h": 26.613,
+    "estimated_diameter_km_min": 0.0126460524,
+    "estimated_diameter_km_max": 0.0282774328,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-20",
+    "relative_velocity_kph": "22637.5429866813",
+    "miss_distance_km": "3946822.368229647",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523977",
+    "name": "(2025 FG)",
+    "absolute_magnitude_h": 27.282,
+    "estimated_diameter_km_min": 0.0092929794,
+    "estimated_diameter_km_max": 0.0207797338,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-20",
+    "relative_velocity_kph": "19790.3768625288",
+    "miss_distance_km": "2780183.21447699",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523980",
+    "name": "(2025 FL)",
+    "absolute_magnitude_h": 26.407,
+    "estimated_diameter_km_min": 0.0139044872,
+    "estimated_diameter_km_max": 0.0310913786,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-20",
+    "relative_velocity_kph": "32294.7173404395",
+    "miss_distance_km": "462184.623976458",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524313",
+    "name": "(2025 FS2)",
+    "absolute_magnitude_h": 28.054,
+    "estimated_diameter_km_min": 0.0065126086,
+    "estimated_diameter_km_max": 0.0145626355,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-20",
+    "relative_velocity_kph": "47021.4692436985",
+    "miss_distance_km": "411172.857330696",
     "orbiting_body": "Earth"
   },
   {
@@ -139,20 +187,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.052244428,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-21",
-    "relative_velocity_kph": "49825.9943195706",
-    "miss_distance_km": "1489339.84572514",
-    "orbiting_body": "Earth"
-  },
-  {
-    "id": "54356391",
-    "name": "(2023 HO4)",
-    "absolute_magnitude_h": 23.15,
-    "estimated_diameter_km_min": 0.0623096019,
-    "estimated_diameter_km_max": 0.1393285055,
-    "is_potentially_hazardous": false,
-    "close_approach_date": "2025-03-21",
-    "relative_velocity_kph": "21194.888783843",
-    "miss_distance_km": "31394016.455996717",
+    "relative_velocity_kph": "49825.9887655356",
+    "miss_distance_km": "1489340.279558963",
     "orbiting_body": "Earth"
   },
   {
@@ -182,13 +218,49 @@ const neoData = [
   {
     "id": "54523944",
     "name": "(2025 FE)",
-    "absolute_magnitude_h": 24.705,
-    "estimated_diameter_km_min": 0.030447734,
-    "estimated_diameter_km_max": 0.0680832029,
+    "absolute_magnitude_h": 24.706,
+    "estimated_diameter_km_min": 0.0304337155,
+    "estimated_diameter_km_max": 0.0680518567,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-21",
-    "relative_velocity_kph": "54051.5611884377",
-    "miss_distance_km": "3022319.260102655",
+    "relative_velocity_kph": "54056.9267523166",
+    "miss_distance_km": "3023064.03309845",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523979",
+    "name": "(2025 FJ)",
+    "absolute_magnitude_h": 27.965,
+    "estimated_diameter_km_min": 0.0067850801,
+    "estimated_diameter_km_max": 0.0151719003,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-21",
+    "relative_velocity_kph": "39491.196839649",
+    "miss_distance_km": "934006.07346215",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523981",
+    "name": "(2025 FK)",
+    "absolute_magnitude_h": 25.028,
+    "estimated_diameter_km_min": 0.026239465,
+    "estimated_diameter_km_max": 0.0586732275,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-21",
+    "relative_velocity_kph": "43084.1983618354",
+    "miss_distance_km": "7586661.380140704",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524123",
+    "name": "(2025 FA2)",
+    "absolute_magnitude_h": 26.906,
+    "estimated_diameter_km_min": 0.0110498142,
+    "estimated_diameter_km_max": 0.0247081358,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-21",
+    "relative_velocity_kph": "35343.9279125132",
+    "miss_distance_km": "2147305.894932258",
     "orbiting_body": "Earth"
   },
   {
@@ -235,8 +307,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.5970902489,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-03-22",
-    "relative_velocity_kph": "41351.1934497012",
-    "miss_distance_km": "10126354.230280538",
+    "relative_velocity_kph": "41351.1917151805",
+    "miss_distance_km": "10126357.46159453",
     "orbiting_body": "Earth"
   },
   {
@@ -300,6 +372,30 @@ const neoData = [
     "orbiting_body": "Earth"
   },
   {
+    "id": "54524054",
+    "name": "(2025 FZ)",
+    "absolute_magnitude_h": 27.616,
+    "estimated_diameter_km_min": 0.0079681037,
+    "estimated_diameter_km_max": 0.0178172215,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-22",
+    "relative_velocity_kph": "25752.6049594955",
+    "miss_distance_km": "1268236.497672338",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524124",
+    "name": "(2025 FB2)",
+    "absolute_magnitude_h": 26.614,
+    "estimated_diameter_km_min": 0.01264023,
+    "estimated_diameter_km_max": 0.0282644135,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-22",
+    "relative_velocity_kph": "47382.5294558946",
+    "miss_distance_km": "3121517.68249859",
+    "orbiting_body": "Earth"
+  },
+  {
     "id": "3092124",
     "name": "(1994 GL)",
     "absolute_magnitude_h": 25.5,
@@ -355,8 +451,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.189688053,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-23",
-    "relative_velocity_kph": "24927.0083856534",
-    "miss_distance_km": "27338983.007054902",
+    "relative_velocity_kph": "24927.0100088227",
+    "miss_distance_km": "27338970.111718508",
     "orbiting_body": "Earth"
   },
   {
@@ -420,18 +516,6 @@ const neoData = [
     "orbiting_body": "Earth"
   },
   {
-    "id": "54342225",
-    "name": "(2023 DQ)",
-    "absolute_magnitude_h": 21.79,
-    "estimated_diameter_km_min": 0.1165614595,
-    "estimated_diameter_km_max": 0.2606393469,
-    "is_potentially_hazardous": true,
-    "close_approach_date": "2025-03-23",
-    "relative_velocity_kph": "65695.2233491598",
-    "miss_distance_km": "47383865.379319286",
-    "orbiting_body": "Earth"
-  },
-  {
     "id": "54404103",
     "name": "(2023 VO6)",
     "absolute_magnitude_h": 28.11,
@@ -470,25 +554,49 @@ const neoData = [
   {
     "id": "54520926",
     "name": "(2025 DA15)",
-    "absolute_magnitude_h": 24.948,
-    "estimated_diameter_km_min": 0.0272241906,
-    "estimated_diameter_km_max": 0.0608751408,
+    "absolute_magnitude_h": 24.98,
+    "estimated_diameter_km_min": 0.0268259417,
+    "estimated_diameter_km_max": 0.0599846292,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-23",
-    "relative_velocity_kph": "27924.0106916839",
-    "miss_distance_km": "6481760.743744502",
+    "relative_velocity_kph": "27925.4113258002",
+    "miss_distance_km": "6482072.026992398",
     "orbiting_body": "Earth"
   },
   {
     "id": "54523641",
     "name": "(2025 EL4)",
-    "absolute_magnitude_h": 20.78,
-    "estimated_diameter_km_min": 0.185590173,
-    "estimated_diameter_km_max": 0.4149922428,
+    "absolute_magnitude_h": 20.978,
+    "estimated_diameter_km_min": 0.1694162157,
+    "estimated_diameter_km_max": 0.3788261748,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-23",
-    "relative_velocity_kph": "63803.1083529204",
-    "miss_distance_km": "12069989.895664278",
+    "relative_velocity_kph": "63707.5154727752",
+    "miss_distance_km": "12051381.910287949",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524125",
+    "name": "(2025 FY1)",
+    "absolute_magnitude_h": 26.938,
+    "estimated_diameter_km_min": 0.0108881721,
+    "estimated_diameter_km_max": 0.024346693,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-23",
+    "relative_velocity_kph": "51530.5574305592",
+    "miss_distance_km": "674770.437783366",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524121",
+    "name": "(2025 FC2)",
+    "absolute_magnitude_h": 28.394,
+    "estimated_diameter_km_min": 0.0055687148,
+    "estimated_diameter_km_max": 0.0124520249,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-23",
+    "relative_velocity_kph": "48307.2263341348",
+    "miss_distance_km": "252897.14400731",
     "orbiting_body": "Earth"
   },
   {
@@ -650,13 +758,61 @@ const neoData = [
   {
     "id": "54522697",
     "name": "(2025 ED2)",
-    "absolute_magnitude_h": 20.931,
-    "estimated_diameter_km_min": 0.1731230827,
-    "estimated_diameter_km_max": 0.3871149813,
+    "absolute_magnitude_h": 20.927,
+    "estimated_diameter_km_min": 0.1734422811,
+    "estimated_diameter_km_max": 0.3878287306,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-24",
-    "relative_velocity_kph": "41476.8616615544",
-    "miss_distance_km": "27225621.585834161",
+    "relative_velocity_kph": "41479.6731911442",
+    "miss_distance_km": "27227443.149338429",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523988",
+    "name": "(2025 FS)",
+    "absolute_magnitude_h": 26.021,
+    "estimated_diameter_km_min": 0.0166094395,
+    "estimated_diameter_km_max": 0.0371398358,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-24",
+    "relative_velocity_kph": "49146.256569924",
+    "miss_distance_km": "1168910.677730311",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524311",
+    "name": "(2025 FQ2)",
+    "absolute_magnitude_h": 27.773,
+    "estimated_diameter_km_min": 0.0074123339,
+    "estimated_diameter_km_max": 0.0165744826,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-24",
+    "relative_velocity_kph": "24696.4618364846",
+    "miss_distance_km": "2719698.746145171",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524317",
+    "name": "(2025 FX2)",
+    "absolute_magnitude_h": 27.382,
+    "estimated_diameter_km_min": 0.0088747265,
+    "estimated_diameter_km_max": 0.0198444917,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-24",
+    "relative_velocity_kph": "90431.3497001742",
+    "miss_distance_km": "273617.765463566",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524319",
+    "name": "(2025 FK3)",
+    "absolute_magnitude_h": 29.008,
+    "estimated_diameter_km_min": 0.0041971547,
+    "estimated_diameter_km_max": 0.0093851232,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-24",
+    "relative_velocity_kph": "73960.718820376",
+    "miss_distance_km": "122112.028948095",
     "orbiting_body": "Earth"
   },
   {
@@ -744,6 +900,30 @@ const neoData = [
     "orbiting_body": "Earth"
   },
   {
+    "id": "54523982",
+    "name": "(2025 FN)",
+    "absolute_magnitude_h": 27.691,
+    "estimated_diameter_km_min": 0.0076975936,
+    "estimated_diameter_km_max": 0.0172123425,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-17",
+    "relative_velocity_kph": "47743.5764831227",
+    "miss_distance_km": "2199687.484394249",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524306",
+    "name": "(2025 FL2)",
+    "absolute_magnitude_h": 25.182,
+    "estimated_diameter_km_min": 0.0244430264,
+    "estimated_diameter_km_max": 0.0546562686,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-17",
+    "relative_velocity_kph": "27373.9034864542",
+    "miss_distance_km": "11211824.616607956",
+    "orbiting_body": "Earth"
+  },
+  {
     "id": "2141078",
     "name": "141078 (2001 XQ30)",
     "absolute_magnitude_h": 18.65,
@@ -751,8 +931,8 @@ const neoData = [
     "estimated_diameter_km_max": 1.1067256584,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-18",
-    "relative_velocity_kph": "24099.6885721276",
-    "miss_distance_km": "29107287.904348036",
+    "relative_velocity_kph": "24099.687668154",
+    "miss_distance_km": "29107286.946921668",
     "orbiting_body": "Earth"
   },
   {
@@ -787,8 +967,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.1690596552,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-18",
-    "relative_velocity_kph": "40124.7304532226",
-    "miss_distance_km": "17133773.585288036",
+    "relative_velocity_kph": "40124.733123996",
+    "miss_distance_km": "17133778.940891782",
     "orbiting_body": "Earth"
   },
   {
@@ -890,49 +1070,73 @@ const neoData = [
   {
     "id": "54521713",
     "name": "(2025 DU25)",
-    "absolute_magnitude_h": 27.235,
-    "estimated_diameter_km_min": 0.009496312,
-    "estimated_diameter_km_max": 0.0212343993,
+    "absolute_magnitude_h": 27.25,
+    "estimated_diameter_km_min": 0.0094309399,
+    "estimated_diameter_km_max": 0.0210882227,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-18",
-    "relative_velocity_kph": "19214.4771369781",
-    "miss_distance_km": "1114818.047670408",
+    "relative_velocity_kph": "19214.4118302586",
+    "miss_distance_km": "1114814.203005149",
     "orbiting_body": "Earth"
   },
   {
     "id": "54523832",
     "name": "(2025 FB)",
-    "absolute_magnitude_h": 23.974,
-    "estimated_diameter_km_min": 0.0426338916,
-    "estimated_diameter_km_max": 0.0953322798,
+    "absolute_magnitude_h": 24.049,
+    "estimated_diameter_km_min": 0.0411865085,
+    "estimated_diameter_km_max": 0.0920958327,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-18",
-    "relative_velocity_kph": "26996.1161727565",
-    "miss_distance_km": "12463013.045733603",
+    "relative_velocity_kph": "26976.2028377141",
+    "miss_distance_km": "12453784.652329043",
     "orbiting_body": "Earth"
   },
   {
     "id": "54523942",
     "name": "(2025 FC)",
-    "absolute_magnitude_h": 28.847,
-    "estimated_diameter_km_min": 0.0045201722,
-    "estimated_diameter_km_max": 0.0101074122,
+    "absolute_magnitude_h": 28.792,
+    "estimated_diameter_km_min": 0.0046361233,
+    "estimated_diameter_km_max": 0.0103666868,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-18",
-    "relative_velocity_kph": "61833.2631155658",
-    "miss_distance_km": "66176.098813413",
+    "relative_velocity_kph": "61831.1390691013",
+    "miss_distance_km": "66173.450931114",
     "orbiting_body": "Earth"
   },
   {
     "id": "54523943",
     "name": "(2025 FD)",
-    "absolute_magnitude_h": 23.923,
-    "estimated_diameter_km_min": 0.0436470581,
-    "estimated_diameter_km_max": 0.0975977889,
+    "absolute_magnitude_h": 23.834,
+    "estimated_diameter_km_min": 0.0454731434,
+    "estimated_diameter_km_max": 0.1016810398,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-18",
-    "relative_velocity_kph": "88339.5483169061",
-    "miss_distance_km": "1944289.662392019",
+    "relative_velocity_kph": "88354.3698618124",
+    "miss_distance_km": "1944424.360314167",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523985",
+    "name": "(2025 FP)",
+    "absolute_magnitude_h": 27.22,
+    "estimated_diameter_km_min": 0.0095621373,
+    "estimated_diameter_km_max": 0.0213815891,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-18",
+    "relative_velocity_kph": "32060.1413355562",
+    "miss_distance_km": "785628.877201989",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524055",
+    "name": "(2025 FA1)",
+    "absolute_magnitude_h": 26.033,
+    "estimated_diameter_km_min": 0.0165179055,
+    "estimated_diameter_km_max": 0.0369351595,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-18",
+    "relative_velocity_kph": "41195.2465949904",
+    "miss_distance_km": "2314947.422263586",
     "orbiting_body": "Earth"
   },
   {
@@ -1034,25 +1238,85 @@ const neoData = [
   {
     "id": "54522521",
     "name": "(2025 CE13)",
-    "absolute_magnitude_h": 21.391,
-    "estimated_diameter_km_min": 0.1400731762,
-    "estimated_diameter_km_max": 0.3132131439,
+    "absolute_magnitude_h": 21.423,
+    "estimated_diameter_km_min": 0.1380241167,
+    "estimated_diameter_km_max": 0.3086313075,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-03-19",
-    "relative_velocity_kph": "50929.5875779105",
-    "miss_distance_km": "17149732.850617293",
+    "relative_velocity_kph": "50929.5480207318",
+    "miss_distance_km": "17149718.833296874",
     "orbiting_body": "Earth"
   },
   {
     "id": "54522918",
     "name": "(2025 EQ2)",
-    "absolute_magnitude_h": 26.923,
-    "estimated_diameter_km_min": 0.0109636453,
-    "estimated_diameter_km_max": 0.0245154562,
+    "absolute_magnitude_h": 26.906,
+    "estimated_diameter_km_min": 0.0110498142,
+    "estimated_diameter_km_max": 0.0247081358,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-19",
-    "relative_velocity_kph": "22246.6710032527",
-    "miss_distance_km": "2009206.730571725",
+    "relative_velocity_kph": "22248.0377547095",
+    "miss_distance_km": "2009335.489458434",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523986",
+    "name": "(2025 FQ)",
+    "absolute_magnitude_h": 23.329,
+    "estimated_diameter_km_min": 0.0573792644,
+    "estimated_diameter_km_max": 0.1283039358,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-19",
+    "relative_velocity_kph": "69657.70137998",
+    "miss_distance_km": "22195766.767925338",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524057",
+    "name": "(2025 FC1)",
+    "absolute_magnitude_h": 27.642,
+    "estimated_diameter_km_min": 0.0078732669,
+    "estimated_diameter_km_max": 0.0176051601,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-19",
+    "relative_velocity_kph": "67524.1645556009",
+    "miss_distance_km": "640226.763702092",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524058",
+    "name": "(2025 FD1)",
+    "absolute_magnitude_h": 27.329,
+    "estimated_diameter_km_min": 0.0090940006,
+    "estimated_diameter_km_max": 0.0203348034,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-19",
+    "relative_velocity_kph": "85491.1642096181",
+    "miss_distance_km": "1013173.834738056",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524127",
+    "name": "(2025 FF2)",
+    "absolute_magnitude_h": 27.116,
+    "estimated_diameter_km_min": 0.0100312482,
+    "estimated_diameter_km_max": 0.0224305529,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-19",
+    "relative_velocity_kph": "74642.4985072507",
+    "miss_distance_km": "1349956.862363841",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524309",
+    "name": "(2025 FO2)",
+    "absolute_magnitude_h": 27.878,
+    "estimated_diameter_km_min": 0.0070624433,
+    "estimated_diameter_km_max": 0.0157921034,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-19",
+    "relative_velocity_kph": "45996.8887232536",
+    "miss_distance_km": "1310947.661943493",
     "orbiting_body": "Earth"
   },
   {
@@ -1202,13 +1466,25 @@ const neoData = [
   {
     "id": "54522534",
     "name": "(2025 EJ1)",
-    "absolute_magnitude_h": 23.608,
-    "estimated_diameter_km_min": 0.0504608982,
-    "estimated_diameter_km_max": 0.1128339986,
+    "absolute_magnitude_h": 23.646,
+    "estimated_diameter_km_min": 0.0495855319,
+    "estimated_diameter_km_max": 0.1108766201,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-30",
-    "relative_velocity_kph": "44934.1536127108",
-    "miss_distance_km": "13089022.536503653",
+    "relative_velocity_kph": "44946.5640333376",
+    "miss_distance_km": "13093231.427696742",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524324",
+    "name": "(2025 FA4)",
+    "absolute_magnitude_h": 26.269,
+    "estimated_diameter_km_min": 0.014816819,
+    "estimated_diameter_km_max": 0.0331314146,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-30",
+    "relative_velocity_kph": "19021.3382024869",
+    "miss_distance_km": "10621939.181737434",
     "orbiting_body": "Earth"
   },
   {
@@ -1243,8 +1519,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.2716689341,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-31",
-    "relative_velocity_kph": "61277.9923940036",
-    "miss_distance_km": "18662502.864339703",
+    "relative_velocity_kph": "61277.524362185",
+    "miss_distance_km": "18662336.990221447",
     "orbiting_body": "Earth"
   },
   {
@@ -1329,6 +1605,18 @@ const neoData = [
     "close_approach_date": "2025-03-31",
     "relative_velocity_kph": "38409.5097254822",
     "miss_distance_km": "36445222.555102355",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524323",
+    "name": "(2025 FZ3)",
+    "absolute_magnitude_h": 26.289,
+    "estimated_diameter_km_min": 0.0146809776,
+    "estimated_diameter_km_max": 0.0328276639,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-31",
+    "relative_velocity_kph": "25688.4537941094",
+    "miss_distance_km": "3234131.054530183",
     "orbiting_body": "Earth"
   },
   {
@@ -1490,13 +1778,61 @@ const neoData = [
   {
     "id": "54522697",
     "name": "(2025 ED2)",
-    "absolute_magnitude_h": 20.931,
-    "estimated_diameter_km_min": 0.1731230827,
-    "estimated_diameter_km_max": 0.3871149813,
+    "absolute_magnitude_h": 20.927,
+    "estimated_diameter_km_min": 0.1734422811,
+    "estimated_diameter_km_max": 0.3878287306,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-24",
-    "relative_velocity_kph": "41476.8616615544",
-    "miss_distance_km": "27225621.585834161",
+    "relative_velocity_kph": "41479.6731911442",
+    "miss_distance_km": "27227443.149338429",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54523988",
+    "name": "(2025 FS)",
+    "absolute_magnitude_h": 26.021,
+    "estimated_diameter_km_min": 0.0166094395,
+    "estimated_diameter_km_max": 0.0371398358,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-24",
+    "relative_velocity_kph": "49146.256569924",
+    "miss_distance_km": "1168910.677730311",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524311",
+    "name": "(2025 FQ2)",
+    "absolute_magnitude_h": 27.773,
+    "estimated_diameter_km_min": 0.0074123339,
+    "estimated_diameter_km_max": 0.0165744826,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-24",
+    "relative_velocity_kph": "24696.4618364846",
+    "miss_distance_km": "2719698.746145171",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524317",
+    "name": "(2025 FX2)",
+    "absolute_magnitude_h": 27.382,
+    "estimated_diameter_km_min": 0.0088747265,
+    "estimated_diameter_km_max": 0.0198444917,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-24",
+    "relative_velocity_kph": "90431.3497001742",
+    "miss_distance_km": "273617.765463566",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524319",
+    "name": "(2025 FK3)",
+    "absolute_magnitude_h": 29.008,
+    "estimated_diameter_km_min": 0.0041971547,
+    "estimated_diameter_km_max": 0.0093851232,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-24",
+    "relative_velocity_kph": "73960.718820376",
+    "miss_distance_km": "122112.028948095",
     "orbiting_body": "Earth"
   },
   {
@@ -1740,6 +2076,42 @@ const neoData = [
     "orbiting_body": "Earth"
   },
   {
+    "id": "54523989",
+    "name": "(2025 FT)",
+    "absolute_magnitude_h": 27.206,
+    "estimated_diameter_km_min": 0.0096239859,
+    "estimated_diameter_km_max": 0.0215198866,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-25",
+    "relative_velocity_kph": "32373.3467037853",
+    "miss_distance_km": "1951844.429625954",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524130",
+    "name": "(2025 FK2)",
+    "absolute_magnitude_h": 27.041,
+    "estimated_diameter_km_min": 0.010383768,
+    "estimated_diameter_km_max": 0.0232188111,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-25",
+    "relative_velocity_kph": "12623.9166607298",
+    "miss_distance_km": "4536947.20457153",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524308",
+    "name": "(2025 FN2)",
+    "absolute_magnitude_h": 25.77,
+    "estimated_diameter_km_min": 0.0186446818,
+    "estimated_diameter_km_max": 0.041690776,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-25",
+    "relative_velocity_kph": "42445.2343236073",
+    "miss_distance_km": "3678553.474607931",
+    "orbiting_body": "Earth"
+  },
+  {
     "id": "3692751",
     "name": "(2014 TN17)",
     "absolute_magnitude_h": 21.55,
@@ -1814,13 +2186,49 @@ const neoData = [
   {
     "id": "54520712",
     "name": "(2025 DW5)",
-    "absolute_magnitude_h": 24.604,
-    "estimated_diameter_km_min": 0.0318973774,
-    "estimated_diameter_km_max": 0.0713247041,
+    "absolute_magnitude_h": 24.68,
+    "estimated_diameter_km_min": 0.0308003021,
+    "estimated_diameter_km_max": 0.0688715693,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-26",
-    "relative_velocity_kph": "20288.5883716042",
-    "miss_distance_km": "6326744.543611611",
+    "relative_velocity_kph": "20297.50168212",
+    "miss_distance_km": "6329845.228743527",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524122",
+    "name": "(2025 FD2)",
+    "absolute_magnitude_h": 27.367,
+    "estimated_diameter_km_min": 0.0089362431,
+    "estimated_diameter_km_max": 0.0199820471,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-26",
+    "relative_velocity_kph": "32229.773561413",
+    "miss_distance_km": "2110100.889703471",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524312",
+    "name": "(2025 FR2)",
+    "absolute_magnitude_h": 26.771,
+    "estimated_diameter_km_min": 0.0117585827,
+    "estimated_diameter_km_max": 0.0262929902,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-26",
+    "relative_velocity_kph": "37911.5254262081",
+    "miss_distance_km": "2715969.480683089",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524315",
+    "name": "(2025 FT2)",
+    "absolute_magnitude_h": 23.387,
+    "estimated_diameter_km_min": 0.0558669519,
+    "estimated_diameter_km_max": 0.1249223021,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-26",
+    "relative_velocity_kph": "52362.4712328922",
+    "miss_distance_km": "19748051.221076965",
     "orbiting_body": "Earth"
   },
   {
@@ -1843,20 +2251,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.0698296682,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-27",
-    "relative_velocity_kph": "8998.1768512405",
-    "miss_distance_km": "17445279.973366928",
-    "orbiting_body": "Earth"
-  },
-  {
-    "id": "3753305",
-    "name": "(2016 JF29)",
-    "absolute_magnitude_h": 22.7,
-    "estimated_diameter_km_min": 0.0766575574,
-    "estimated_diameter_km_max": 0.1714115092,
-    "is_potentially_hazardous": false,
-    "close_approach_date": "2025-03-27",
-    "relative_velocity_kph": "30330.8894663472",
-    "miss_distance_km": "63384495.177861914",
+    "relative_velocity_kph": "8998.1768653858",
+    "miss_distance_km": "17445280.796155213",
     "orbiting_body": "Earth"
   },
   {
@@ -1922,13 +2318,13 @@ const neoData = [
   {
     "id": "54521606",
     "name": "(2025 DV22)",
-    "absolute_magnitude_h": 23.945,
-    "estimated_diameter_km_min": 0.0432070859,
-    "estimated_diameter_km_max": 0.0966139812,
+    "absolute_magnitude_h": 23.956,
+    "estimated_diameter_km_min": 0.0429887658,
+    "estimated_diameter_km_max": 0.0961258026,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-27",
-    "relative_velocity_kph": "43999.2453451543",
-    "miss_distance_km": "6335985.488277464",
+    "relative_velocity_kph": "43997.6691863921",
+    "miss_distance_km": "6335862.653466407",
     "orbiting_body": "Earth"
   },
   {
@@ -2042,25 +2438,25 @@ const neoData = [
   {
     "id": "54519691",
     "name": "(2025 CG4)",
-    "absolute_magnitude_h": 22.555,
-    "estimated_diameter_km_min": 0.0819511357,
-    "estimated_diameter_km_max": 0.1832483103,
+    "absolute_magnitude_h": 22.581,
+    "estimated_diameter_km_min": 0.0809757495,
+    "estimated_diameter_km_max": 0.1810672805,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-28",
-    "relative_velocity_kph": "10576.0021968795",
-    "miss_distance_km": "26311755.23033927",
+    "relative_velocity_kph": "10576.3775975318",
+    "miss_distance_km": "26313898.638701056",
     "orbiting_body": "Earth"
   },
   {
     "id": "54520338",
     "name": "(2025 DU3)",
-    "absolute_magnitude_h": 22.309,
-    "estimated_diameter_km_min": 0.0917814631,
-    "estimated_diameter_km_max": 0.2052295906,
+    "absolute_magnitude_h": 22.393,
+    "estimated_diameter_km_min": 0.0882988356,
+    "estimated_diameter_km_max": 0.1974421988,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-28",
-    "relative_velocity_kph": "48113.3906906846",
-    "miss_distance_km": "19598420.170269399",
+    "relative_velocity_kph": "48124.0033981276",
+    "miss_distance_km": "19603311.676543298",
     "orbiting_body": "Earth"
   },
   {
@@ -2126,13 +2522,37 @@ const neoData = [
   {
     "id": "54521614",
     "name": "(2025 DY24)",
-    "absolute_magnitude_h": 23.917,
-    "estimated_diameter_km_min": 0.0437678261,
-    "estimated_diameter_km_max": 0.0978678345,
+    "absolute_magnitude_h": 23.963,
+    "estimated_diameter_km_min": 0.0428504095,
+    "estimated_diameter_km_max": 0.0958164285,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-29",
-    "relative_velocity_kph": "27889.1830552659",
-    "miss_distance_km": "24933224.561454162",
+    "relative_velocity_kph": "27888.5714684564",
+    "miss_distance_km": "24933682.39077551",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524120",
+    "name": "(2025 FZ1)",
+    "absolute_magnitude_h": 27.055,
+    "estimated_diameter_km_min": 0.0103170367,
+    "estimated_diameter_km_max": 0.0230695955,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-29",
+    "relative_velocity_kph": "33964.6276000947",
+    "miss_distance_km": "2457498.679074467",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524310",
+    "name": "(2025 FP2)",
+    "absolute_magnitude_h": 26.256,
+    "estimated_diameter_km_min": 0.0149057893,
+    "estimated_diameter_km_max": 0.033330358,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-29",
+    "relative_velocity_kph": "22298.5882837166",
+    "miss_distance_km": "20890506.757160097",
     "orbiting_body": "Earth"
   },
   {
@@ -2167,8 +2587,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.2716689341,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-03-31",
-    "relative_velocity_kph": "61277.9923940036",
-    "miss_distance_km": "18662502.864339703",
+    "relative_velocity_kph": "61277.524362185",
+    "miss_distance_km": "18662336.990221447",
     "orbiting_body": "Earth"
   },
   {
@@ -2256,6 +2676,18 @@ const neoData = [
     "orbiting_body": "Earth"
   },
   {
+    "id": "54524323",
+    "name": "(2025 FZ3)",
+    "absolute_magnitude_h": 26.289,
+    "estimated_diameter_km_min": 0.0146809776,
+    "estimated_diameter_km_max": 0.0328276639,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-03-31",
+    "relative_velocity_kph": "25688.4537941094",
+    "miss_distance_km": "3234131.054530183",
+    "orbiting_body": "Earth"
+  },
+  {
     "id": "2004034",
     "name": "4034 Vishnu (1986 PA)",
     "absolute_magnitude_h": 18.49,
@@ -2277,6 +2709,18 @@ const neoData = [
     "close_approach_date": "2025-04-01",
     "relative_velocity_kph": "21215.871729128",
     "miss_distance_km": "14171642.963729275",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "3714456",
+    "name": "(2015 FU117)",
+    "absolute_magnitude_h": 24.3,
+    "estimated_diameter_km_min": 0.0366906138,
+    "estimated_diameter_km_max": 0.0820427065,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-04-01",
+    "relative_velocity_kph": "24318.7827360101",
+    "miss_distance_km": "26632069.761486318",
     "orbiting_body": "Earth"
   },
   {
@@ -2323,8 +2767,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.1762138252,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-01",
-    "relative_velocity_kph": "26770.843320249",
-    "miss_distance_km": "2532344.946840535",
+    "relative_velocity_kph": "26770.8442142928",
+    "miss_distance_km": "2532345.32083521",
     "orbiting_body": "Earth"
   },
   {
@@ -2371,20 +2815,20 @@ const neoData = [
     "estimated_diameter_km_max": 0.1185877909,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-01",
-    "relative_velocity_kph": "40048.6100619337",
-    "miss_distance_km": "24071203.382338803",
+    "relative_velocity_kph": "40048.9963885962",
+    "miss_distance_km": "24070943.800114779",
     "orbiting_body": "Earth"
   },
   {
     "id": "54520811",
     "name": "(2025 DO7)",
-    "absolute_magnitude_h": 22.397,
-    "estimated_diameter_km_min": 0.0881363329,
-    "estimated_diameter_km_max": 0.1970788316,
+    "absolute_magnitude_h": 22.406,
+    "estimated_diameter_km_min": 0.0877717943,
+    "estimated_diameter_km_max": 0.1962636985,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-01",
-    "relative_velocity_kph": "35563.1666191326",
-    "miss_distance_km": "22538196.591551078",
+    "relative_velocity_kph": "35584.8942678651",
+    "miss_distance_km": "22552968.947379755",
     "orbiting_body": "Earth"
   },
   {
@@ -2558,13 +3002,13 @@ const neoData = [
   {
     "id": "54520718",
     "name": "(2025 DE6)",
-    "absolute_magnitude_h": 22.595,
-    "estimated_diameter_km_min": 0.0804553589,
-    "estimated_diameter_km_max": 0.1799036517,
+    "absolute_magnitude_h": 22.624,
+    "estimated_diameter_km_min": 0.0793880211,
+    "estimated_diameter_km_max": 0.1775170118,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-02",
-    "relative_velocity_kph": "30635.8700973494",
-    "miss_distance_km": "10195449.282733391",
+    "relative_velocity_kph": "30635.5365284226",
+    "miss_distance_km": "10195426.828093104",
     "orbiting_body": "Earth"
   },
   {
@@ -2587,8 +3031,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.3784774237,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-04-03",
-    "relative_velocity_kph": "26905.5324476102",
-    "miss_distance_km": "10390268.509423998",
+    "relative_velocity_kph": "26905.5322814775",
+    "miss_distance_km": "10390270.858110557",
     "orbiting_body": "Earth"
   },
   {
@@ -2760,6 +3204,18 @@ const neoData = [
     "orbiting_body": "Earth"
   },
   {
+    "id": "54524318",
+    "name": "(2025 FF3)",
+    "absolute_magnitude_h": 23.958,
+    "estimated_diameter_km_min": 0.0429491899,
+    "estimated_diameter_km_max": 0.0960373082,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-04-04",
+    "relative_velocity_kph": "26343.9541738562",
+    "miss_distance_km": "8864535.511150774",
+    "orbiting_body": "Earth"
+  },
+  {
     "id": "3275978",
     "name": "(2005 GR33)",
     "absolute_magnitude_h": 22.14,
@@ -2863,8 +3319,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.8017518649,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-04-05",
-    "relative_velocity_kph": "82527.7177112965",
-    "miss_distance_km": "3705733.776970148",
+    "relative_velocity_kph": "82527.3780474013",
+    "miss_distance_km": "3705750.053218404",
     "orbiting_body": "Earth"
   },
   {
@@ -2942,13 +3398,13 @@ const neoData = [
   {
     "id": "54522923",
     "name": "(2025 DV40)",
-    "absolute_magnitude_h": 22.526,
-    "estimated_diameter_km_min": 0.0830529335,
-    "estimated_diameter_km_max": 0.185712005,
+    "absolute_magnitude_h": 22.564,
+    "estimated_diameter_km_min": 0.0816121796,
+    "estimated_diameter_km_max": 0.1824903814,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-06",
-    "relative_velocity_kph": "47191.7518707708",
-    "miss_distance_km": "6428330.488173598",
+    "relative_velocity_kph": "47191.9050789466",
+    "miss_distance_km": "6428352.703457293",
     "orbiting_body": "Earth"
   },
   {
@@ -2971,8 +3427,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.3006353038,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-04-07",
-    "relative_velocity_kph": "32031.6196354012",
-    "miss_distance_km": "7500536.839196614",
+    "relative_velocity_kph": "32031.66667196",
+    "miss_distance_km": "7500295.732309535",
     "orbiting_body": "Earth"
   },
   {
@@ -3218,13 +3674,13 @@ const neoData = [
   {
     "id": "54520181",
     "name": "(2025 DC2)",
-    "absolute_magnitude_h": 22.752,
-    "estimated_diameter_km_min": 0.074843653,
-    "estimated_diameter_km_max": 0.1673554958,
+    "absolute_magnitude_h": 22.796,
+    "estimated_diameter_km_min": 0.0733423762,
+    "estimated_diameter_km_max": 0.1639985389,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-10",
-    "relative_velocity_kph": "34851.9226949922",
-    "miss_distance_km": "18002656.399826259",
+    "relative_velocity_kph": "34840.0512234931",
+    "miss_distance_km": "17995041.479288797",
     "orbiting_body": "Earth"
   },
   {
@@ -3237,18 +3693,6 @@ const neoData = [
     "close_approach_date": "2025-04-11",
     "relative_velocity_kph": "67952.5062582056",
     "miss_distance_km": "66368739.341604288",
-    "orbiting_body": "Earth"
-  },
-  {
-    "id": "3579079",
-    "name": "(2011 SP68)",
-    "absolute_magnitude_h": 21.74,
-    "estimated_diameter_km_min": 0.1192765246,
-    "estimated_diameter_km_max": 0.2667104172,
-    "is_potentially_hazardous": false,
-    "close_approach_date": "2025-04-11",
-    "relative_velocity_kph": "27811.3963037653",
-    "miss_distance_km": "72018153.558600667",
     "orbiting_body": "Earth"
   },
   {
@@ -3583,8 +4027,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.1091540813,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-13",
-    "relative_velocity_kph": "18299.0989759152",
-    "miss_distance_km": "24625523.404635738",
+    "relative_velocity_kph": "18299.1607108924",
+    "miss_distance_km": "24625562.614237465",
     "orbiting_body": "Earth"
   },
   {
@@ -3597,18 +4041,6 @@ const neoData = [
     "close_approach_date": "2025-04-13",
     "relative_velocity_kph": "4963.9965938779",
     "miss_distance_km": "6940661.305519998",
-    "orbiting_body": "Earth"
-  },
-  {
-    "id": "54392417",
-    "name": "(2023 TL4)",
-    "absolute_magnitude_h": 20.01,
-    "estimated_diameter_km_min": 0.2645787599,
-    "estimated_diameter_km_max": 0.5916160926,
-    "is_potentially_hazardous": true,
-    "close_approach_date": "2025-04-13",
-    "relative_velocity_kph": "115170.1168330526",
-    "miss_distance_km": "31712627.950031898",
     "orbiting_body": "Earth"
   },
   {
@@ -3727,8 +4159,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.3006353038,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-04-07",
-    "relative_velocity_kph": "32031.6196354012",
-    "miss_distance_km": "7500536.839196614",
+    "relative_velocity_kph": "32031.66667196",
+    "miss_distance_km": "7500295.732309535",
     "orbiting_body": "Earth"
   },
   {
@@ -3950,13 +4382,13 @@ const neoData = [
   {
     "id": "54521719",
     "name": "(2025 DL28)",
-    "absolute_magnitude_h": 24.77,
-    "estimated_diameter_km_min": 0.0295498293,
-    "estimated_diameter_km_max": 0.0660754271,
+    "absolute_magnitude_h": 24.848,
+    "estimated_diameter_km_min": 0.0285072272,
+    "estimated_diameter_km_max": 0.0637440978,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-08",
-    "relative_velocity_kph": "20158.2561596589",
-    "miss_distance_km": "6208445.779329603",
+    "relative_velocity_kph": "20157.7612860463",
+    "miss_distance_km": "6208551.604862841",
     "orbiting_body": "Earth"
   },
   {
@@ -4195,8 +4627,8 @@ const neoData = [
     "estimated_diameter_km_max": 1.6145071727,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-21",
-    "relative_velocity_kph": "42009.0580628716",
-    "miss_distance_km": "15290821.071240407",
+    "relative_velocity_kph": "42009.0567538345",
+    "miss_distance_km": "15290818.034403646",
     "orbiting_body": "Earth"
   },
   {
@@ -4358,13 +4790,13 @@ const neoData = [
   {
     "id": "54521727",
     "name": "(2025 DY29)",
-    "absolute_magnitude_h": 25.308,
-    "estimated_diameter_km_min": 0.0230650806,
-    "estimated_diameter_km_max": 0.0515750881,
+    "absolute_magnitude_h": 25.313,
+    "estimated_diameter_km_min": 0.0230120324,
+    "estimated_diameter_km_max": 0.0514564687,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-21",
-    "relative_velocity_kph": "11718.9093410532",
-    "miss_distance_km": "11974972.569177186",
+    "relative_velocity_kph": "11719.2101438308",
+    "miss_distance_km": "11974805.932109793",
     "orbiting_body": "Earth"
   },
   {
@@ -4598,13 +5030,13 @@ const neoData = [
   {
     "id": "54522527",
     "name": "(2025 DC36)",
-    "absolute_magnitude_h": 23.934,
-    "estimated_diameter_km_min": 0.0434265148,
-    "estimated_diameter_km_max": 0.0971046392,
+    "absolute_magnitude_h": 23.921,
+    "estimated_diameter_km_min": 0.043687277,
+    "estimated_diameter_km_max": 0.0976877212,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-15",
-    "relative_velocity_kph": "17731.471924173",
-    "miss_distance_km": "5430318.247962172",
+    "relative_velocity_kph": "17731.8138170299",
+    "miss_distance_km": "5430405.433600808",
     "orbiting_body": "Earth"
   },
   {
@@ -4927,8 +5359,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.1968067451,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-18",
-    "relative_velocity_kph": "28906.8376346028",
-    "miss_distance_km": "24027478.842096268",
+    "relative_velocity_kph": "28906.8553605062",
+    "miss_distance_km": "24027498.095342137",
     "orbiting_body": "Earth"
   },
   {
@@ -5011,20 +5443,20 @@ const neoData = [
     "estimated_diameter_km_max": 0.1698399991,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-18",
-    "relative_velocity_kph": "32670.9658301359",
-    "miss_distance_km": "21578807.245180299",
+    "relative_velocity_kph": "32669.4549754914",
+    "miss_distance_km": "21581853.521566896",
     "orbiting_body": "Earth"
   },
   {
     "id": "54520805",
     "name": "(2025 DJ7)",
-    "absolute_magnitude_h": 23.766,
-    "estimated_diameter_km_min": 0.046919673,
-    "estimated_diameter_km_max": 0.1049155783,
+    "absolute_magnitude_h": 23.841,
+    "estimated_diameter_km_min": 0.0453267913,
+    "estimated_diameter_km_max": 0.1013537866,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-18",
-    "relative_velocity_kph": "8452.6026938942",
-    "miss_distance_km": "20973429.679289382",
+    "relative_velocity_kph": "8459.0281522598",
+    "miss_distance_km": "20993994.494564033",
     "orbiting_body": "Earth"
   },
   {
@@ -5143,8 +5575,8 @@ const neoData = [
     "estimated_diameter_km_max": 1.6145071727,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-21",
-    "relative_velocity_kph": "42009.0580628716",
-    "miss_distance_km": "15290821.071240407",
+    "relative_velocity_kph": "42009.0567538345",
+    "miss_distance_km": "15290818.034403646",
     "orbiting_body": "Earth"
   },
   {
@@ -5306,13 +5738,13 @@ const neoData = [
   {
     "id": "54521727",
     "name": "(2025 DY29)",
-    "absolute_magnitude_h": 25.308,
-    "estimated_diameter_km_min": 0.0230650806,
-    "estimated_diameter_km_max": 0.0515750881,
+    "absolute_magnitude_h": 25.313,
+    "estimated_diameter_km_min": 0.0230120324,
+    "estimated_diameter_km_max": 0.0514564687,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-21",
-    "relative_velocity_kph": "11718.9093410532",
-    "miss_distance_km": "11974972.569177186",
+    "relative_velocity_kph": "11719.2101438308",
+    "miss_distance_km": "11974805.932109793",
     "orbiting_body": "Earth"
   },
   {
@@ -5335,8 +5767,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.1563291544,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-22",
-    "relative_velocity_kph": "31991.3320134216",
-    "miss_distance_km": "4169545.562018809",
+    "relative_velocity_kph": "31991.338072732",
+    "miss_distance_km": "4169556.422824171",
     "orbiting_body": "Earth"
   },
   {
@@ -5431,8 +5863,8 @@ const neoData = [
     "estimated_diameter_km_max": 1.3062911326,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-23",
-    "relative_velocity_kph": "27504.8717860899",
-    "miss_distance_km": "26648295.281104601",
+    "relative_velocity_kph": "27504.8726415055",
+    "miss_distance_km": "26648296.597565857",
     "orbiting_body": "Earth"
   },
   {
@@ -5455,8 +5887,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.0899580388,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-23",
-    "relative_velocity_kph": "22527.7514093138",
-    "miss_distance_km": "23833115.051161089",
+    "relative_velocity_kph": "22527.800259413",
+    "miss_distance_km": "23833166.064034759",
     "orbiting_body": "Earth"
   },
   {
@@ -5839,8 +6271,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.4405954204,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-04-24",
-    "relative_velocity_kph": "48131.4743927982",
-    "miss_distance_km": "26931419.647131566",
+    "relative_velocity_kph": "48131.6566109872",
+    "miss_distance_km": "26931626.331548758",
     "orbiting_body": "Earth"
   },
   {
@@ -5863,8 +6295,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.3564839479,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-04-25",
-    "relative_velocity_kph": "34142.9386431107",
-    "miss_distance_km": "4930674.092940909",
+    "relative_velocity_kph": "34142.9410391459",
+    "miss_distance_km": "4930673.255192837",
     "orbiting_body": "Earth"
   },
   {
@@ -6139,8 +6571,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.5781492662,
     "is_potentially_hazardous": true,
     "close_approach_date": "2025-04-27",
-    "relative_velocity_kph": "26824.0393372663",
-    "miss_distance_km": "26121615.43998205",
+    "relative_velocity_kph": "26824.0391156727",
+    "miss_distance_km": "26121614.617193765",
     "orbiting_body": "Earth"
   },
   {
@@ -6528,6 +6960,18 @@ const neoData = [
     "orbiting_body": "Earth"
   },
   {
+    "id": "54524051",
+    "name": "(2025 FX)",
+    "absolute_magnitude_h": 24.061,
+    "estimated_diameter_km_min": 0.0409595311,
+    "estimated_diameter_km_max": 0.0915882959,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-04-30",
+    "relative_velocity_kph": "33166.8776487495",
+    "miss_distance_km": "13580979.63489454",
+    "orbiting_body": "Earth"
+  },
+  {
     "id": "2066400",
     "name": "66400 (1999 LT7)",
     "absolute_magnitude_h": 19.29,
@@ -6549,18 +6993,6 @@ const neoData = [
     "close_approach_date": "2025-05-01",
     "relative_velocity_kph": "61267.7600566132",
     "miss_distance_km": "70447281.392706614",
-    "orbiting_body": "Earth"
-  },
-  {
-    "id": "3753608",
-    "name": "(2016 KA1)",
-    "absolute_magnitude_h": 20.86,
-    "estimated_diameter_km_min": 0.1788771952,
-    "estimated_diameter_km_max": 0.3999815682,
-    "is_potentially_hazardous": false,
-    "close_approach_date": "2025-05-01",
-    "relative_velocity_kph": "15413.7083930784",
-    "miss_distance_km": "64835513.030902125",
     "orbiting_body": "Earth"
   },
   {
@@ -7015,8 +7447,8 @@ const neoData = [
     "estimated_diameter_km_max": 0.8473054089,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-05-05",
-    "relative_velocity_kph": "38731.919678051",
-    "miss_distance_km": "19896750.860586124",
+    "relative_velocity_kph": "38731.9207437292",
+    "miss_distance_km": "19896755.064286271",
     "orbiting_body": "Earth"
   },
   {
@@ -7459,7 +7891,7 @@ const neoData = [
     "estimated_diameter_km_max": 1.8881651553,
     "is_potentially_hazardous": false,
     "close_approach_date": "2025-04-29",
-    "relative_velocity_kph": "70654.7367489136",
+    "relative_velocity_kph": "70654.736818908",
     "miss_distance_km": "17545847.216273363",
     "orbiting_body": "Earth"
   },
@@ -7581,6 +8013,18 @@ const neoData = [
     "close_approach_date": "2025-04-29",
     "relative_velocity_kph": "94070.286108684",
     "miss_distance_km": "71187790.295694495",
+    "orbiting_body": "Earth"
+  },
+  {
+    "id": "54524320",
+    "name": "(2025 DZ52)",
+    "absolute_magnitude_h": 23.446,
+    "estimated_diameter_km_min": 0.0543694546,
+    "estimated_diameter_km_max": 0.1215737964,
+    "is_potentially_hazardous": false,
+    "close_approach_date": "2025-04-29",
+    "relative_velocity_kph": "25536.7417906027",
+    "miss_distance_km": "18065389.354063752",
     "orbiting_body": "Earth"
   }
 ];

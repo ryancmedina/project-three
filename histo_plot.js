@@ -34,3 +34,6 @@ const layout1 = {
 
 // Render the histograms together in the same plot
 Plotly.newPlot('histogram', [traceAllDiameters], layout1);
+export default function plotHistogram() {
+    Plotly.newPlot("histogram", data, layout);
+}

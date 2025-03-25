@@ -23,7 +23,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Group 2 NEO - Asteroids</a>
+            <a class="navbar-brand" href="index.html">NEO - Asteroids</a>
             <div class="ms-auto">
                 <a class="btn btn-primary" href="https://www.nasa.gov/stem-content/near-earth-object-program/" target="_blank">
                     NASA Near Earth Object Program
@@ -49,7 +49,7 @@
         </div>
     
         <!-- Title and Image Section -->
-        <div class="title-image-section text-center mx-3">
+        <div id="defaultContent" class="title-image-section text-center">
             <h1 class="custom-title">Explore Near-Earth Objects</h1>
             <div class="image-container">
                 <a href="https://www.nasa.gov/">
@@ -63,6 +63,21 @@
                     Observatories and space agencies use ground-based telescopes, radar imaging, and space missions to locate and monitor NEOs, tracking their orbits and predicting possible future 
                     impacts. By closely studying these objects, we can develop strategies to mitigate potential threats and even explore opportunities for resource mining in the future.</p>
             </div>
+        </div>
+
+        <!-- Diameter Analysis Section (Hidden by Default) -->
+        <div id="diameterContent" class="title-image-section text-center" style="display: none;">
+            <h1 class="custom-title">Size Distribution</h1>
+            <h4>All shapes and sizes</h4>
+            <p>Asteroids in our solar system vary widely in size, ranging from small, pebble-sized rocks to massive bodies several hundred kilometers across.
+                However, the size distribution of asteroids follows a clear trend: there are far more smaller asteroids than larger ones. This is primarily because small
+                objects are more numerous due to the nature of their formation and the dynamics of the solar system. Smaller asteroids are more common because they are more
+                easily fragmented during collisions, leading to an abundance of smaller debris. Additionally, small asteroids are often less likely to be gravitationally
+                disturbed or impacted by planetary forces, which helps them survive longer. Finding and tracking these smaller objects, however, presents significant challenges.
+                Their small size means they reflect less light, making them harder to detect with telescopes. Furthermore, the vastness of space and the movement of these objects
+                increase the difficulty of monitoring them over time. Specialized, high-resolution instruments are required to spot these objects, and their faintness often means
+                that they can only be detected at a distance close to Earth or in specific observational conditions.</p>
+            <div class="image-container" id="histogram"></div>
         </div>
     
         <!-- New Centered Container -->
@@ -89,26 +104,30 @@
             const asteroidDetails = document.getElementById("asteroidDetails");
             const searchButton = document.getElementById("searchButton");
             const diameterAnalysisBtn = document.getElementById("diameterAnalysisBtn");
-            const titleImageSection = document.querySelector(".title-image-section");
+            const defaultContent = document.getElementById("defaultContent");
+            const diameterContent = document.getElementById("diameterContent");
+            let plotLoaded = false; // Track if the plot has been loaded
 
             diameterAnalysisBtn.addEventListener("click", (event) => {
-                // Prevent the default action of the link (navigation)
                 event.preventDefault();
 
-                // Update the content inside the .title-image-section div
-                titleImageSection.innerHTML = `
-                    <h1 class="custom-title">Size Distribution</h1>
-                    <h4>All shapes and sizes</h4>
-                    <p>Asteroids in our solar system vary widely in size, ranging from small, pebble-sized rocks to massive bodies several hundred kilometers across.
-                        However, the size distribution of asteroids follows a clear trend: there are far more smaller asteroids than larger ones. This is primarily because small
-                        objects are more numerous due to the nature of their formation and the dynamics of the solar system. Smaller asteroids are more common because they are more
-                        easily fragmented during collisions, leading to an abundance of smaller debris. Additionally, small asteroids are often less likely to be gravitationally
-                        disturbed or impacted by planetary forces, which helps them survive longer. Finding and tracking these smaller objects, however, presents significant challenges.
-                        Their small size means they reflect less light, making them harder to detect with telescopes. Furthermore, the vastness of space and the movement of these objects
-                        increase the difficulty of monitoring them over time. Specialized, high-resolution instruments are required to spot these objects, and their faintness often means
-                        that they can only be detected at a distance close to Earth or in specific observational conditions.</p>
-                    <div class="image-container" id="histogram"></div>
-                `;
+                // Hide the default section and show the diameter analysis
+                defaultContent.style.display = "none";
+                diameterContent.style.display = "block";
+
+                // Load histogram only once
+                if (!plotLoaded) {
+                    import('./histo_plot.js')
+                        .then(module => {
+                            if (module.default) {
+                                module.default(); // Call the default export function
+                            } else if (module.plotHistogram) {
+                                module.plotHistogram(); // Call named export
+                            }
+                            plotLoaded = true; // Mark as loaded
+                        })
+                        .catch(err => console.error("Failed to load histogram plot:", err));
+                }
             });
 
             // Handle search input and show suggestions

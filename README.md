@@ -1,47 +1,63 @@
-# 🌌 Explore Near-Earth Objects
+🌌 Explore Near-Earth Objects
+Ifrah Mohamed · Randall Nelson · Dotan Barak · Ryan Medina
+University of Austin – Data Analytics | Project 3
 
-Ifrah Mohamed
-Randall Nelson
-Dotan Barak
-Ryan Medina
+Project Overview
+This project analyzes real-time data from NASA’s Near Earth Object Web Service (NeoWs) API to examine the characteristics of asteroids that approach Earth. Leveraging data engineering techniques and interactive visualization tools, the goal is to identify trends related to asteroid size, velocity, proximity, and hazard classification.
 
-University of Austin: Data Analytics | Project 3
+The end-to-end workflow includes:
 
-## Project Overview & Purpose
+Data extraction and transformation using Python
 
+Data storage in a MongoDB database
 
-This project leverages real-time data from NASA’s Near Earth Object Web Service (NeoWs) API to analyze and visualize characteristics of asteroids that approach Earth. The goal is to explore trends in asteroid size, velocity, proximity, and hazard potential using data engineering and interactive visualization techniques.
+Interactive data visualizations created with Plotly.js and D3.js
 
-We extract relevant asteroid attributes, store them in a MongoDB database, and build dynamic visualizations using Plotly.js and D3.js to answer a set of targeted scientific questions.
+Scientific insights derived from user-driven exploration of the data
+
+This project addresses targeted analytical questions through a dynamic dashboard designed for both educational and exploratory purposes.
 
 Ethical Considerations
-In the development of this project, we made deliberate efforts to ensure responsible use of publicly available data from NASA’s Near Earth Object Web Service (NeoWs). No personal, private, or sensitive data is collected or processed. The project is strictly educational and scientific in nature, aiming to inform and engage, not to alarm. We use NASA’s technical definitions for classifications such as “potentially hazardous” and clarify that these do not imply any imminent threat to Earth. Our visualizations are created to be factual, transparent, and free from bias or sensationalism. Additionally, all third-party libraries and resources have been credited appropriately to maintain academic integrity and respect intellectual property.
+We recognize the importance of using scientific data responsibly. This project:
 
-## Repo Contents
+Utilizes only publicly available data from NASA's NeoWs API
 
-The repository contents must be downloaded in order to run locally, with additional requirements detailed below.
+Does not collect or process any personal or sensitive information
 
-- **NEO.ipynb.ipynb** (Jupyter Notebook) contains the extraction and cleaning of the source data
-- **resources** contains the resulting CSV files
-- **static** contains the JavaScript and CSS files for the dashboard
-- **index.html** launches the dashboard for visualization and user interaction
+Is developed exclusively for educational and scientific use
 
-## Prerequisites for Use
+Adheres strictly to NASA’s definitions of “potentially hazardous,” which do not imply imminent threat
 
-There are several prerequisites for accessing and utilizing the various stages of extraction, transformation, loading ("ETL") and visualization, the chief among them being Python. The following are available for installation via Python Package Index; refer to source documentation for further details:
+Presents information in a manner that is factual, objective, and free from exaggeration or alarmism
 
-- **Jupyter Notebook:**
+Appropriately credits all external libraries and data sources to maintain academic integrity and respect for intellectual property
 
-  - install: `pip install notebook`
-  - run: `jupyter notebook`
+Repository Structure
+To run the project locally, clone the repository and follow the setup instructions provided. The contents include:
 
-- **SQLAlchemy:**
+rust
+Copy
+Edit
+📓 NEO.ipynb         - Jupyter Notebook for data extraction and preprocessing  
+📁 resources/        - Output CSV files from the ETL process  
+📁 static/           - JavaScript and CSS assets for the interactive dashboard  
+📄 index.html        - Entry point for launching the visualization dashboard  
+System Requirements & Dependencies
+To run the ETL pipeline and dashboard locally, ensure the following Python packages are installed:
 
-  - install: `pip install SQLAlchemy`
+Jupyter Notebook
 
-- **Pandas:**
+Install: pip install notebook
 
-  - install: `pip install pandas`
+Launch: jupyter notebook
+
+SQLAlchemy
+
+Install: pip install SQLAlchemy
+
+Pandas
+
+Install: pip install pandas
 
 
 

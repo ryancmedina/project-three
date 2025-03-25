@@ -1,4 +1,4 @@
-# Explore Near-Earth Objects
+# 🌌 Explore Near-Earth Objects
 
 University of Austin: Data Analytics | Project 3
 

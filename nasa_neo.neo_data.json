@@ -1,5 +1,3 @@
-// MongoDB Database file
-
 [{
   "_id": {
     "$oid": "67e21086b0cfc72f71039b38"

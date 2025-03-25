@@ -79,14 +79,25 @@
                 that they can only be detected at a distance close to Earth or in specific observational conditions.</p>
             <div class="image-container" id="histogram"></div>
         </div>
+
+        <!-- Velocity Analysis Section (Hidden by Default)-->
+        <div id="velocityContent" class="title-image-section text-center" style="display: none;">
+        <h4>Speed Distribution of Near-Earth Objects</h4>
+        <p> Using velocity data from the API, we can visualize how asteroid speeds change week by week,
+            categorizing them based on their relative velocity in kilometers per hour. The majority of NEOs travel at moderate speeds, but a subset of fast-moving asteroids poses a greater challenge for tracking and mitigation strategies.  
+            Understanding these speed distributions helps in planetary defense efforts and enhances our ability to predict future asteroid approaches with higher accuracy.
+        
+        </h3>
+        <div class="image-container" id="scatterplot"></div>
+        </div>
     
         <!-- New Centered Container -->
         <div class="sidebar">
             <h5>More Information</h5>
             <p>Explore additional asteroid data and statistics.</p>
-            <p><a href="#" id="diameterAnalysisBtn" class="btn btn-primary">View Diameter Analysis</a></p>
-            <p><a href="diameter.html" class="btn btn-primary">Ifrah</a></p>
-            <p><a href="diameter.html" class="btn btn-primary">Dotan</a></p>
+            <p><a href="#" id="diameterAnalysisBtn" class="btn btn-primary">Diameter Analysis</a></p>
+            <p><a href="velocity.html" id="velocityAnalysisBtn" class="btn btn-primary">Velocity Analysis</a></p>
+            <p><a href="dotan.html" class="btn btn-primary">Dotan</a></p>
             <p><a href="diameter.html" class="btn btn-primary">Ryan</a></p>
         </div>
     </div>
@@ -95,6 +106,7 @@
     
 
     <!-- JavaScript for Autofill Search and Details -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script type="module">
         import neoData from './neo_data.js';
 
@@ -107,12 +119,14 @@
             const defaultContent = document.getElementById("defaultContent");
             const diameterContent = document.getElementById("diameterContent");
             let plotLoaded = false; // Track if the plot has been loaded
+            let velocityPlotLoaded = false; // Track if the velocity plot has been loaded
 
             diameterAnalysisBtn.addEventListener("click", (event) => {
                 event.preventDefault();
 
                 // Hide the default section and show the diameter analysis
                 defaultContent.style.display = "none";
+                velocityContent.style.display = "none";
                 diameterContent.style.display = "block";
 
                 // Load histogram only once
@@ -137,27 +151,6 @@
 
                 if (query.length > 0) {
                     const filteredNeos = neoData.filter(neo => neo.id.toLowerCase().includes(query)).slice(0, 5);
-                    filteredNeos.forEach(neo => {
-                        const li = document.createElement("li");
-                        li.textContent = `${neo.id} - ${neo.name}`;
-                        li.classList.add("list-group-item");
-                        li.addEventListener("click", function () {
-                            searchInput.value = neo.id;
-                            suggestions.innerHTML = "";
-                            showAsteroidDetails(neo);
-                        });
-                        suggestions.appendChild(li);
-                    });
-                }
-            });
-
-            // Handle search button click event
-            searchButton.addEventListener("click", function () {
-                const query = searchInput.value.toLowerCase();
-                suggestions.innerHTML = "";
-
-                if (query.length > 0) {
-                    const filteredNeos = neoData.filter(neo => neo.id.toLowerCase().includes(query));
                     filteredNeos.forEach(neo => {
                         const li = document.createElement("li");
                         li.textContent = `${neo.id} - ${neo.name}`;

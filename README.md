@@ -12,7 +12,7 @@ University of Austin: Data Analytics | Project 3
 
 This project leverages real-time data from NASA’s Near Earth Object Web Service (NeoWs) API to analyze and visualize characteristics of asteroids that approach Earth. The goal is to explore trends in asteroid size, velocity, proximity, and hazard potential using data engineering and interactive visualization techniques.
 
-We extract relevant asteroid attributes, store them in a SQL database, and build dynamic visualizations using Plotly.js and D3.js to answer a set of targeted scientific questions.
+We extract relevant asteroid attributes, store them in a MongoDB database, and build dynamic visualizations using Plotly.js and D3.js to answer a set of targeted scientific questions.
 
 Ethical Considerations
 In the development of this project, we made deliberate efforts to ensure responsible use of publicly available data from NASA’s Near Earth Object Web Service (NeoWs). No personal, private, or sensitive data is collected or processed. The project is strictly educational and scientific in nature, aiming to inform and engage, not to alarm. We use NASA’s technical definitions for classifications such as “potentially hazardous” and clarify that these do not imply any imminent threat to Earth. Our visualizations are created to be factual, transparent, and free from bias or sensationalism. Additionally, all third-party libraries and resources have been credited appropriately to maintain academic integrity and respect intellectual property.

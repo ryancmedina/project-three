@@ -1,5 +1,10 @@
 🌌 Explore Near-Earth Objects
-Ifrah Mohamed · Randall Nelson · Dotan Barak · Ryan Medina
+
+· Ifrah Mohamed 
+· Randall Nelson 
+· Dotan Barak 
+· Ryan Medina
+
 University of Austin – Data Analytics | Project 3
 
 Project Overview

@@ -1,0 +1,72 @@
+
+
+html, body {
+    height: 100%; /* Ensures the body takes up the full viewport height */
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 90%);
+    background-image: url("https://d2pn8kiwq2w21t.cloudfront.net/original_images/imagesasteroid20180723main-animation-16.gif");
+    background-size: cover; /* Makes the image cover the full screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-blend-mode: multiply; /* Blends color and image */
+    
+  }
+
+
+
+/* Main container for Graph */
+.container {
+    display: flex;          /* Side-by-side layout */
+    justify-content: center; /* Pushes items apart */
+    align-items: center;    /* Aligns items vertically */
+}
+
+/* Adjust Graph Section */
+#graph {
+    width: 90%;  /* Takes 90% of the space */
+    max-width: 800px;
+    margin: 0 auto;    /* Centers the element horizontally */
+    display: block; 
+}
+
+/* Scatterplot Container */
+#scatterplot-container {
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+}
+
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+  h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 20px;
+    color: greenyellow;
+
+}
+
+
+  h2 {
+    color: whitesmoke;
+    font-family: serif;
+    text-align: center;
+    margin: 20px;
+    text-decoration: underline;
+
+  }
+
+  h3 {
+    font-family: 'Times New Roman';
+    text-align: left; /* Aligns the text to the right */
+    margin: 0.5px;
+    color: wheat;
+    
+}

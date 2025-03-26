@@ -1,0 +1,79 @@
+body {
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+.custom-title {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    border-bottom: 3px solid #ddd; /* Underlined border */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content-container {
+    display: flex;
+    margin-top: 80px; /* Space below navbar */
+    margin-left: 0;
+    padding-left: 5;
+}
+
+.navbar .container-fluid {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sidebar {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    margin-left: 0
+}
+
+.search-box {
+    width: 100%;
+}
+
+.details-container {
+    flex-grow: 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    width: 100%;
+}
+
+.navbar-brand {
+    margin-left: 0px;
+}
+
+.ms-auto {
+    margin-right: 5px;
+}
+
+.title-image-section {
+    background-color: #eee; /* Slightly darker than the rest of the background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    flex-grow: 1;
+    min-height: 800px;
+}
+
+.image-credit {
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    margin-left: 364px;
+}
+#histogram {
+    height: 600px; /* Set a specific height */
+}
+
